@@ -1,10 +1,12 @@
 #include <iostream>
 using namespace std;
 
+const int AGE = 35;
+
 int main() {
-    string charaterName = "John";
+    string charaterName = "Mike";
     int charaterAge;
-    charaterAge = 35;
+    charaterAge = AGE;
     cout << charaterName << charaterAge << endl;
 
     return 1;
